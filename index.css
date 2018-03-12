@@ -3,3 +3,42 @@
   margin-left: auto;
   margin-right: auto;
 }
+
+.searchbox {
+  grid-column-start: 1;
+  grid-column-end: 2;
+}
+
+.searcharea {
+  width: 600px;
+  height: 35px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  box-shadow: 0 1px 1px gray;
+  display: grid;
+  grid-template-columns: 87% 13%;
+}
+
+.searchtext {
+  width: 530px;
+  height: 27px;
+  border: none;
+  margin-left: 10px;
+  font-size: 16px;
+  font-family: arial;
+  line-height: 550%;
+  margin-top: 3px;
+}
+
+.searchtext:focus {
+  outline: none;
+}
+
+.mic {
+  grid-column-start: 2;
+  grid-column-end: 3;
+  width: 35%;
+  margin-top: 5px;
+  margin-left: 35px;
+}
