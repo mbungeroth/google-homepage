@@ -2,6 +2,7 @@
   display: block;
   margin-left: auto;
   margin-right: auto;
+  margin-top: 150px;
 }
 
 .searchbox {
@@ -44,5 +45,22 @@
 }
 
 .apps {
-  width: 1.5%;
+  width: 20px;
+}
+
+li {
+  display: inline;
+}
+
+a {
+  text-decoration: none;
+  color: #61666d;
+  margin-right: 10px;
+  font-family: arial, sans-serif;
+  font-size: .85em;
+}
+
+.right {
+  float: right;
+  margin-right: 10px;
 }
