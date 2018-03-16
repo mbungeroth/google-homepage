@@ -50,12 +50,13 @@
 
 li {
   display: inline;
+  margin-top: 5px;
 }
 
 a {
   text-decoration: none;
   color: #61666d;
-  margin-right: 10px;
+  margin-right: 10px;;
   font-family: arial, sans-serif;
   font-size: .85em;
 }
@@ -63,4 +64,13 @@ a {
 .right {
   float: right;
   margin-right: 10px;
+}
+
+#button {
+  background-color: #4286f4;
+  color: #ffffff;
+  padding: 7px 13px 7px 13px;
+  font: 13px arial, sans-serif;
+  font-weight: bold;
+  border-radius: 4px;
 }
