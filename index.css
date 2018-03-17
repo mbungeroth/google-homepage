@@ -46,31 +46,41 @@
 
 .apps {
   width: 20px;
+  margin-top: 5px;
 }
 
 li {
   display: inline;
-  margin-top: 5px;
+  margin-top: 7px;
 }
 
 a {
   text-decoration: none;
-  color: #61666d;
-  margin-right: 10px;;
+  color: #323335;
+  margin-right: 10px;
   font-family: arial, sans-serif;
-  font-size: .85em;
+  font-size: .8em;
 }
 
 .right {
   float: right;
-  margin-right: 10px;
+  margin-right: 14px;
 }
 
 #button {
   background-color: #4286f4;
   color: #ffffff;
-  padding: 7px 13px 7px 13px;
+  padding: 7px 12px 7px 12px;
   font: 13px arial, sans-serif;
   font-weight: bold;
-  border-radius: 4px;
+  border-radius: 2px;
+  border: 1px solid #4286f4;
+}
+
+.navtext {
+  margin-top: 11px;
+}
+
+.navleft {
+  margin-top: 100px;
 }
