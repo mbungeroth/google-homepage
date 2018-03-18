@@ -54,7 +54,7 @@ a {
 .searcharea {
   margin-left: auto;
   margin-right: auto;
-  margin-top: 28px;
+  margin-top: 27px;
   width: 482px;
   height: 45px;
   border: 0.5px solid #d4d4d6;
@@ -107,6 +107,14 @@ a {
 
 .but:focus {
   outline: none;
+}
+
+#gs {
+  min-width: 124px;
+}
+
+#lck {
+  min-width: 142px;
 }
 
 .but:hover {
