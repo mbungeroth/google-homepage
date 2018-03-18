@@ -5,7 +5,7 @@ html, body {
 
 .grid-navbar{
   display: grid;
-  grid-template-columns: 50px 50px 3fr 50px 50px 50px 80px;
+  grid-template-columns: 50px 50px minmax(600px, 3fr) 50px 50px 50px 80px;
   grid-template-rows: 1fr;
   padding-top: 10px;
   padding-left: 17px;
@@ -130,7 +130,7 @@ a {
 
 .grid-footer {
   display: grid;
-  grid-template-columns: 26px 102px 50px 1fr 70px 70px 70px;
+  grid-template-columns: 26px 102px 50px minmax(600px, 1fr) 70px 70px 70px;
   grid-template-rows: 1fr;
   position: fixed;
   bottom: 0;
