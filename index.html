@@ -2,24 +2,24 @@
 <html>
   <head>
     <meta charset="utf-8">
+    <link rel="stylesheet" type="text/css" href="style.css">
     <title>Google</title>
-    <link rel="stylesheet" href="index.css">
   </head>
   <body>
-    <div>
-      <ul>
-        <li><a class="navleft" href="#">About</a></li>
-        <li><a class="navleft" href="#">Store</a></li>
-        <li class="right"><button id="button" class="right" type="button" name="button">Sign in</button></li>
-        <li class="right"><img class="apps" src="http://www.myiconfinder.com/uploads/iconsets/256-256-ed559f9ab4ee6cec08ffde71c58a68af-grid.png" alt=""></li>
-        <li class="right navtext"><a href="#">Images</a></li>
-        <li class="right navtext"><a href="#">Gmail</a></li>
-      </ul>
+    <div class="grid-navbar">
+      <div class="nav"><a href="#">About</a></div>
+      <div class="nav"><a href="#">Store</a></div>
+      <div class="nav"></div>
+      <div class="nav"><a href="#">Gmail</a></div>
+      <div class="nav"><a href="#">Images</a></div>
+      <div class="nav"><img class="apps" src="https://www.shareicon.net/download/2015/09/12/99848_apps.ico" alt=""></div>
+      <div class="nav 7"><button id="signin" type="button" name="button">Sign in</button></div>
     </div>
-    <div>
-      <img class="logo" src="https://www.google.com/images/branding/googlelogo/1x/googlelogo_color_272x92dp.png">
+
+    <div class="googlelogo">
+      <img src="https://www.google.com/images/branding/googlelogo/1x/googlelogo_color_272x92dp.png">
     </div>
-    <br>
+
     <div class="searcharea">
       <form class="searchbox" action="index.html" method="post">
         <input class="searchtext" type="text" name="search" value="">
@@ -28,11 +28,22 @@
         <img class="mic" src="http://www.pvhc.net/img162/zbmfagyxsrtfkmhboghc.png">
       </div>
     </div>
+
+    <div class="grid-buttons">
+      <div class="blank1"></div>
+      <div class="gsearch btn"><button id="gs" class="but" type="button" name="button">Google Search</button></div>
+      <div class="lucky btn"><button id="lck" class="but"type="button" name="button">I'm Feeling Lucky</button></div>
+      <div class="blank2"></div>
+    </div>
+
+    <div class="grid-footer">
+      <div class="foot-blank"></div>
+      <div class="foot left"><a href="#">Advertising</a></div>
+      <div class="foot"><a href="#">Business</a></div>
+      <div class="foot-blank"></div>
+      <div class="foot 4"><a href="#">Privacy</a></div>
+      <div class="foot 5"><a href="#">Terms</a></div>
+      <div class="foot 6"><a href="#">Settings</a></div>
+    </div>
   </body>
 </html>
-
-<!--
-TODO:
-4) navbar - place items all on top, fix fonts, button image
-5) footer
-6) clean up spacing

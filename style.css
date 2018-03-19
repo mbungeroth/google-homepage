@@ -157,6 +157,10 @@ a {
   padding-right: 50px;
 }
 
+.foot a:hover {
+  text-decoration: underline;
+}
+
 .foot-blank {
   background-color: #eff0f2;
   border-top: 0.5px solid #e0e1e5;
